@@ -44,7 +44,7 @@ class OLGModel_steadystate:
         # 繪製 45 度線
         ax.plot(k_grid, k_grid, 'k-', lw=1, alpha=0.7, label='$45^{\circ}$')
 
-        # 標記均衡點處
+        # 標記均衡點
         k_star = optimize.newton(self.h, 0.2)
         self.k_star.append(k_star)
         ax.scatter(k_star, k_star, color='red', marker='o', label=' $k*$')
@@ -66,3 +66,5 @@ class OLGModel_steadystate:
 
         print(f"k* = {k_star}")
         print(f"y* = {(self.α*k_star)}")
+
+#new

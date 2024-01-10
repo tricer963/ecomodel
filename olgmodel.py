@@ -61,4 +61,4 @@ class OLGModel:
 
         return equilibrium_R, equilibrium_k
     
-
+#new
