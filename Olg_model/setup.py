@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Olgmoder',
+    name='Olg_model',
     version='1.0.0',
     description='Description of your package',
     author='Your Name',
