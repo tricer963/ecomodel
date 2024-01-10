@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='Olg_model',
+    name='ecomodel',
     version='1.0.0',
     description='Description of your package',
     author='Your Name',
